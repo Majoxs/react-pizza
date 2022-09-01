@@ -9,7 +9,6 @@ import NotFound from './pages/NotFound';
 import './scss/app.scss';
 
 export const SearchContext = React.createContext();
-console.log('SearchContext: ', SearchContext);
 
 function App() {
   const [searchValue, setSearchValue] = React.useState('');
